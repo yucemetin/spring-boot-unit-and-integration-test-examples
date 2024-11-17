@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @Setter
 @Builder
 public class Order {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
